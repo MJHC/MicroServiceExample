@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake</title>
+</head>
+<body>
+    <button onclick="getAB()">AB</button>
+    <script>
+        async function getAB(){
+            let res = await fetch("/api/ab")
+            let data = await res.json()
+            alert(JSON.stringify(data))
+        }
+    </script>
+</body>
+</html>
