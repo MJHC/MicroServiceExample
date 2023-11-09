@@ -57,3 +57,7 @@ docker swarm leave
 if node is a manager use `--force`
 
 then the `Swarm` attribute in `docker info` should be `Swarm: inactive`
+
+## Application Diagram
+
+![example](https://github.com/MJHC/MicroServiceExample/assets/26723180/c7e912e4-1bcf-491f-bffa-f65d4b3ae172)
